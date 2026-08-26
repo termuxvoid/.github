@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:0091EA&height=200&section=header&text=Termux%20Void&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Unofficial%20Termux%20APT%20%26%20Pacman%20Repositories&descAlignY=55&descSize=20">
+  <img src="https://github.com/termuxvoid/.github/raw/main/profile/banner.svg" alt="Termux Void" height="200">
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@ A **third-party repository** for Termux — delivering **cutting-edge, pre-teste
 | | |
 |---|---|
 | 📦 **APT Repository** | Classic `dpkg`-based Termux — `pkg install` workflow — **220+ tools** |
-| 🐧 **Pacman Repository** | Switched pacman bootstrap or `termux-penv` — `pacman -S` workflow — **233 tools** |
+| 🐧 **Pacman Repository** | Switched pacman bootstrap — `pacman -S` (or `pkg install`) workflow — **233 tools** |
 | ⚡ **Custom Tools** | Built exclusively for Termux — no bloat, just what you need |
 | 🚀 **One-Command Setup** | Single command install, zero dependency hell |
 | 🔄 **Always Fresh** | Regularly updated & community-tested |
@@ -39,13 +39,15 @@ A **third-party repository** for Termux — delivering **cutting-edge, pre-teste
 curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash
 ```
 
-**Pacman (switched bootstrap or `termux-penv`):**
+**Pacman (switched bootstrap):**
 
 ```bash
 curl -sL https://github.com/termuxvoid/pacman-repo/raw/main/install-repo.sh | bash
 ```
 
 > 💡 *Need `curl`?* → `pkg install curl`
+
+> 💡 **Installing tools:** After adding either repository, install any tool with `pkg install <tool-name>` — this works in **both** APT and Pacman setups. (Pacman users may also use `pacman -S <tool-name>`.)
 
 ---
 
