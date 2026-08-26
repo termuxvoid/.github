@@ -6,8 +6,10 @@
   <a href="https://github.com/termuxvoid/repo"><img src="https://img.shields.io/github/stars/termuxvoid/repo?style=flat&logo=github&color=FFD700&logoColor=white"></a>
   <a href="https://github.com/termuxvoid/pacman-repo"><img src="https://img.shields.io/github/stars/termuxvoid/pacman-repo?style=flat&logo=github&color=FFD700&logoColor=white"></a>
   <a href="https://github.com/termuxvoid/repo/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-BSD_3--Clause-00C853?style=flat"></a>
-  <a href="https://github.com/termuxvoid/repo/actions"><img src="https://img.shields.io/github/actions/workflow/status/termuxvoid/repo/build.yml?style=flat&logo=githubactions&logoColor=white&label=Build"></a>
+  <a href="https://github.com/termuxvoid/repo/actions"><img src="https://img.shields.io/github/actions/workflow/status/termuxvoid/repo/build.yml?style=flat&logo=githubactions&logoColor=white&label=APT%20Build"></a>
+  <a href="https://github.com/termuxvoid/pacman-repo/actions"><img src="https://img.shields.io/github/actions/workflow/status/termuxvoid/pacman-repo/build.yml?style=flat&logo=githubactions&logoColor=white&label=Pacman%20Build"></a>
   <a href="https://github.com/termuxvoid/repo"><img src="https://img.shields.io/github/repo-size/termuxvoid/repo?style=flat&logo=goland&color=0091EA&logoColor=white"></a>
+  <a href="https://github.com/termuxvoid/pacman-repo"><img src="https://img.shields.io/github/repo-size/termuxvoid/pacman-repo?style=flat&logo=goland&color=0091EA&logoColor=white"></a>
   <a href="https://t.me/nullxvoid"><img src="https://img.shields.io/badge/Telegram-Join_Chat-26A5E4?style=flat&logo=telegram&logoColor=white"></a>
 </p>
 
@@ -19,13 +21,13 @@ A **third-party repository** for Termux — delivering **cutting-edge, pre-teste
 
 | | |
 |---|---|
-| 📦 **APT Repository** | Classic `dpkg`-based Termux — `pkg install` workflow |
-| 🐧 **Pacman Repository** | Switched pacman bootstrap or `termux-penv` — `pacman -S` workflow |
+| 📦 **APT Repository** | Classic `dpkg`-based Termux — `pkg install` workflow — **220+ tools** |
+| 🐧 **Pacman Repository** | Switched pacman bootstrap or `termux-penv` — `pacman -S` workflow — **233 tools** |
 | ⚡ **Custom Tools** | Built exclusively for Termux — no bloat, just what you need |
 | 🚀 **One-Command Setup** | Single command install, zero dependency hell |
 | 🔄 **Always Fresh** | Regularly updated & community-tested |
 
-> 💡 **Same tools, both formats.** The very same 200+ packages are shipped as APT and as Pacman packages — use whichever package manager your Termux runs.
+> 💡 **Same tools, both formats.** The very same curated toolset is shipped as **APT (220+)** and as **Pacman (233)** packages — use whichever package manager your Termux runs.
 
 ---
 
