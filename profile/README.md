@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/termuxvoid/.github/raw/main/profile/banner.svg" alt="Termux Void" height="200">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:0091EA&height=200&section=header&text=Termux%20Void&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Unofficial%20Termux%20Repository%20APT%20and%20PACMAN&descAlignY=55&descSize=20">
 </p>
+
 
 <p align="center">
   <a href="https://github.com/termuxvoid/repo"><img src="https://img.shields.io/github/stars/termuxvoid/repo?style=flat&logo=github&color=FFD700&logoColor=white"></a>
