@@ -1,9 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:0091EA&height=200&section=header&text=Termux%20Void&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Unofficial%20Termux%20APT%20Repository&descAlignY=55&descSize=20">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:0091EA&height=200&section=header&text=Termux%20Void&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Unofficial%20Termux%20APT%20%26%20Pacman%20Repositories&descAlignY=55&descSize=20">
 </p>
 
 <p align="center">
   <a href="https://github.com/termuxvoid/repo"><img src="https://img.shields.io/github/stars/termuxvoid/repo?style=flat&logo=github&color=FFD700&logoColor=white"></a>
+  <a href="https://github.com/termuxvoid/pacman-repo"><img src="https://img.shields.io/github/stars/termuxvoid/pacman-repo?style=flat&logo=github&color=FFD700&logoColor=white"></a>
   <a href="https://github.com/termuxvoid/repo/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-BSD_3--Clause-00C853?style=flat"></a>
   <a href="https://github.com/termuxvoid/repo/actions"><img src="https://img.shields.io/github/actions/workflow/status/termuxvoid/repo/build.yml?style=flat&logo=githubactions&logoColor=white&label=Build"></a>
   <a href="https://github.com/termuxvoid/repo"><img src="https://img.shields.io/github/repo-size/termuxvoid/repo?style=flat&logo=goland&color=0091EA&logoColor=white"></a>
@@ -14,37 +15,52 @@
 
 ## 🎯 What is Termux Void?
 
-A **third-party APT repository** for Termux — delivering **cutting-edge, pre-tested** cybersecurity & custom packages with zero dependency headaches.
+A **third-party repository** for Termux — delivering **cutting-edge, pre-tested** cybersecurity & custom packages with zero dependency headaches. Pick the format that matches your setup:
 
 | | |
 |---|---|
+| 📦 **APT Repository** | Classic `dpkg`-based Termux — `pkg install` workflow |
+| 🐧 **Pacman Repository** | Switched pacman bootstrap or `termux-penv` — `pacman -S` workflow |
 | ⚡ **Custom Tools** | Built exclusively for Termux — no bloat, just what you need |
 | 🚀 **One-Command Setup** | Single command install, zero dependency hell |
 | 🔄 **Always Fresh** | Regularly updated & community-tested |
+
+> 💡 **Same tools, both formats.** The very same 200+ packages are shipped as APT and as Pacman packages — use whichever package manager your Termux runs.
 
 ---
 
 ## ⚡ Quick Start
 
+**APT (standard Termux):**
+
 ```bash
 curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash
+```
+
+**Pacman (switched bootstrap or `termux-penv`):**
+
+```bash
+curl -sL https://github.com/termuxvoid/pacman-repo/raw/main/install-repo.sh | bash
 ```
 
 > 💡 *Need `curl`?* → `pkg install curl`
 
 ---
 
-## 📦 Main Repository
+## 📦 Our Repositories
 
 <p align="center">
   <a href="https://github.com/termuxvoid/repo">
-    <img src="https://img.shields.io/badge/Explore-181717?style=flat&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/APT_Repo-181717?style=flat&logo=github&logoColor=white">
   </a>
   <a href="https://github.com/termuxvoid/repo/blob/main/assets/PACKAGES.md">
     <img src="https://img.shields.io/badge/View_Packages-FF6F00?style=flat">
   </a>
-  <a href="https://github.com/termuxvoid/repo#-installation">
-    <img src="https://img.shields.io/badge/Installation_Guide-00C853?style=flat">
+  <a href="https://github.com/termuxvoid/pacman-repo">
+    <img src="https://img.shields.io/badge/Pacman_Repo-1793D1?style=flat&logo=archlinux&logoColor=white">
+  </a>
+  <a href="https://github.com/termuxvoid/pacman-repo#-quick-installation">
+    <img src="https://img.shields.io/badge/Pacman_Install_Guide-00C853?style=flat">
   </a>
 </p>
 
@@ -57,4 +73,3 @@ curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash
   <a href="https://github.com/termuxvoid/repo/issues"><img src="https://img.shields.io/badge/Report_Issue-181717?style=flat&logo=github&logoColor=white"></a>
   <a href="https://github.com/termuxvoid/repo/discussions"><img src="https://img.shields.io/badge/Discussions-2376F5?style=flat&logo=github&logoColor=white"></a>
 </p>
-
