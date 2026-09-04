@@ -23,12 +23,12 @@ A **third-party repository** for Termux — delivering **cutting-edge, pre-teste
 | | |
 |---|---|
 | 📦 **APT Repository** | Classic `dpkg`-based Termux — `pkg install` workflow — **220+ tools** |
-| 🐧 **Pacman Repository** | Switched pacman bootstrap — `pacman -S` (or `pkg install`) workflow — **233 tools** |
+| 🐧 **Pacman Repository** | Switched pacman bootstrap — `pacman -S` (or `pkg install`) workflow — **220+ tools** |
 | ⚡ **Custom Tools** | Built exclusively for Termux — no bloat, just what you need |
 | 🚀 **One-Command Setup** | Single command install, zero dependency hell |
 | 🔄 **Always Fresh** | Regularly updated & community-tested |
 
-> 💡 **Same tools, both formats.** The very same curated toolset is shipped as **APT (220+)** and as **Pacman (233)** packages — use whichever package manager your Termux runs.
+> 💡 **Same tools, both formats.** The very same curated toolset is shipped as **APT (220+)** and as **Pacman (220+)** packages — use whichever package manager your Termux runs.
 
 ---
 
